@@ -1,5 +1,5 @@
-# Nakiyah_Assignment6
-## Project: ETL-Query Pipeline with Databricks
+# Nakiyah_Assignment7
+## Project: ETL-Query Pipeline with Databricks AND packaging a Python Script into a Command-Line Tool
 
 [![CI](https://github.com/nogibjj/Nakiyah_Assignment7/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_Assignment7/actions/workflows/cicd.yml)
 
@@ -28,8 +28,9 @@ Nakiyah_Assignment7/
 ├── test.py
 ├── setup.py
 ├── Makefile
-├── README.md
 ├── Requirements.txt
+├── README.md
+├── UserGuide.md
 └── complexQueryLog.md
 ```
 
