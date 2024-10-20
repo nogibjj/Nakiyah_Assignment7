@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 ## Transforms and Loads employee and mental health data into the specified Databricks database
 def loadData(employee_dataset="Data/EmployeeData.csv", mentalhealth_dataset="Data/MentalHealthData.csv"):
 
-    database_name = "nd191_assignment6"
+    database_name = "nd191_assignment7"
     employee_table = "nd191_employee_data"
     mentalhealth_table = "nd191_mentalhealth_data"
     

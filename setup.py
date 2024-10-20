@@ -9,8 +9,8 @@ setup(
     py_modules=["etl_query_pipeline"],  # Replace with the correct module/file name
     install_requires=[
         "databricks-sql-connector",  # Handles the connection to Databricks SQL
-        "pandas",                    # For data manipulation and transformation
-        "python-dotenv",             # For environment variable management
+        "pandas",  # For data manipulation and transformation
+        "python-dotenv",  # For environment variable management
     ],
     entry_points={
         "console_scripts": [
