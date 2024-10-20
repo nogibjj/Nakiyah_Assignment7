@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "etl_query=etl_query_pipeline:main",
+            "etl_query=main:main",
         ],
     },
 )
