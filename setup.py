@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="ETLpipeline",
@@ -6,15 +6,15 @@ setup(
     description="ETL and Query pipeline CLI tool",
     author="Nakiyah Dhariwala",
     author_email="nakiyah.dhariwala@duke.edu",
-    py_modules=["etl_query_pipeline"],  # Replace with the correct module/file name
+    packages=find_packages(),  # Automatically find all packages and sub-packages
     install_requires=[
-        "databricks-sql-connector",  # Handles the connection to Databricks SQL
-        "pandas",  # For data manipulation and transformation
-        "python-dotenv",  # For environment variable management
+        "databricks-sql-connector",
+        "pandas",
+        "python-dotenv",
     ],
     entry_points={
         "console_scripts": [
-            "etl_query=etl_query_pipeline:main",  # Link to the main function in your Python script
+            "etl_query=etl_query_pipeline:main",
         ],
     },
 )
